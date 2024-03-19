@@ -12,6 +12,7 @@ struct emojiGameApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            
         }
     }
 }

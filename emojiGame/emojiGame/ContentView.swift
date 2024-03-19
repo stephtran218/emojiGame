@@ -31,7 +31,7 @@ struct ContentView: View {
                         .padding([.leading, .trailing], 50)
                         .padding(.bottom, 290)
                     
-                    NavigationLink(destination: SwiftUIView() .navigationBarBackButtonHidden(true), label: {
+                    NavigationLink(destination: GameView().navigationBarBackButtonHidden(true), label: {
                         Text("Start")
                             .foregroundColor(.white)
                             .font(.system(size: 35))

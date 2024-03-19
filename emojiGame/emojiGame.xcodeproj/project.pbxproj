@@ -11,13 +11,13 @@
 		33B2C36A2BA49A7500A325E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2C3692BA49A7500A325E7 /* ContentView.swift */; };
 		33B2C36C2BA49A7700A325E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B2C36B2BA49A7700A325E7 /* Assets.xcassets */; };
 		33B2C36F2BA49A7700A325E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B2C36E2BA49A7700A325E7 /* Preview Assets.xcassets */; };
-		33B2C3792BA49A7700A325E7 /* emojiGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2C3782BA49A7700A325E7 /* emojiGameTests.swift */; };
 		33B2C3832BA49A7700A325E7 /* emojiGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2C3822BA49A7700A325E7 /* emojiGameUITests.swift */; };
 		33B2C3852BA49A7700A325E7 /* emojiGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2C3842BA49A7700A325E7 /* emojiGameUITestsLaunchTests.swift */; };
 		33CB809B2BA89D2300434399 /* emojiCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CB809A2BA89D2300434399 /* emojiCover.png */; };
 		33CB809C2BA89D2300434399 /* emojiCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CB809A2BA89D2300434399 /* emojiCover.png */; };
 		33CB809D2BA89D2300434399 /* emojiCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CB809A2BA89D2300434399 /* emojiCover.png */; };
-		33CB80A02BA8AC6400434399 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB809E2BA8AC6400434399 /* SwiftUIView.swift */; };
+		33F165B62BA9E54E00067619 /* emojiGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2C3782BA49A7700A325E7 /* emojiGameTests.swift */; };
+		33F165B82BA9ED5B00067619 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F165B72BA9ED5B00067619 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		33B2C3822BA49A7700A325E7 /* emojiGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiGameUITests.swift; sourceTree = "<group>"; };
 		33B2C3842BA49A7700A325E7 /* emojiGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		33CB809A2BA89D2300434399 /* emojiCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emojiCover.png; sourceTree = "<group>"; };
-		33CB809E2BA8AC6400434399 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		33F165B72BA9ED5B00067619 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 			children = (
 				33B2C3672BA49A7500A325E7 /* emojiGameApp.swift */,
 				33B2C3692BA49A7500A325E7 /* ContentView.swift */,
-				33CB809E2BA8AC6400434399 /* SwiftUIView.swift */,
+				33F165B72BA9ED5B00067619 /* GameView.swift */,
 				33B2C36B2BA49A7700A325E7 /* Assets.xcassets */,
 				33CB809A2BA89D2300434399 /* emojiCover.png */,
 				33B2C36D2BA49A7700A325E7 /* Preview Content */,
@@ -121,7 +121,6 @@
 		33B2C3772BA49A7700A325E7 /* emojiGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				33B2C3782BA49A7700A325E7 /* emojiGameTests.swift */,
 			);
 			path = emojiGameTests;
 			sourceTree = "<group>";
@@ -130,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				33B2C3822BA49A7700A325E7 /* emojiGameUITests.swift */,
+				33B2C3782BA49A7700A325E7 /* emojiGameTests.swift */,
 				33B2C3842BA49A7700A325E7 /* emojiGameUITestsLaunchTests.swift */,
 			);
 			path = emojiGameUITests;
@@ -268,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F165B82BA9ED5B00067619 /* GameView.swift in Sources */,
 				33B2C36A2BA49A7500A325E7 /* ContentView.swift in Sources */,
 				33B2C3682BA49A7500A325E7 /* emojiGameApp.swift in Sources */,
 			);
@@ -277,8 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33CB80A02BA8AC6400434399 /* SwiftUIView.swift in Sources */,
-				33B2C3792BA49A7700A325E7 /* emojiGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33F165B62BA9E54E00067619 /* emojiGameTests.swift in Sources */,
 				33B2C3832BA49A7700A325E7 /* emojiGameUITests.swift in Sources */,
 				33B2C3852BA49A7700A325E7 /* emojiGameUITestsLaunchTests.swift in Sources */,
 			);
