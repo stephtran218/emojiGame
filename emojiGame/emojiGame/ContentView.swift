@@ -9,8 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     
-@State var cardsFlipped: [Bool] = Array(repeating: false, count: 16)
-@State var emojis = ["😀", "😀" ,"😁", "😁", "😂", "😂", "🤣", "🤣", "😃", "😃", "😄", "😄",]
 @State private var pickOne: Int = -1
 @State private var pickTwo: Int = -1
 @State private var score: Int = 0
