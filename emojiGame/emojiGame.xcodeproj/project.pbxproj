@@ -17,6 +17,7 @@
 		33CB809B2BA89D2300434399 /* emojiCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CB809A2BA89D2300434399 /* emojiCover.png */; };
 		33CB809C2BA89D2300434399 /* emojiCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CB809A2BA89D2300434399 /* emojiCover.png */; };
 		33CB809D2BA89D2300434399 /* emojiCover.png in Resources */ = {isa = PBXBuildFile; fileRef = 33CB809A2BA89D2300434399 /* emojiCover.png */; };
+		33E3B8A92BB1DE6B00E675D8 /* FinalPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E3B8A82BB1DE6B00E675D8 /* FinalPageView.swift */; };
 		33F165B62BA9E54E00067619 /* emojiGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B2C3782BA49A7700A325E7 /* emojiGameTests.swift */; };
 		33F165B82BA9ED5B00067619 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F165B72BA9ED5B00067619 /* GameView.swift */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		33B2C3842BA49A7700A325E7 /* emojiGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		33C65A242BAC8CAA00C9CEDF /* SquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareView.swift; sourceTree = "<group>"; };
 		33CB809A2BA89D2300434399 /* emojiCover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emojiCover.png; sourceTree = "<group>"; };
+		33E3B8A82BB1DE6B00E675D8 /* FinalPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalPageView.swift; sourceTree = "<group>"; };
 		33F165B72BA9ED5B00067619 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				33B2C3672BA49A7500A325E7 /* emojiGameApp.swift */,
 				33B2C3692BA49A7500A325E7 /* ContentView.swift */,
 				33F165B72BA9ED5B00067619 /* GameView.swift */,
+				33E3B8A82BB1DE6B00E675D8 /* FinalPageView.swift */,
 				33C65A242BAC8CAA00C9CEDF /* SquareView.swift */,
 				33B2C36B2BA49A7700A325E7 /* Assets.xcassets */,
 				33CB809A2BA89D2300434399 /* emojiCover.png */,
@@ -273,6 +276,7 @@
 			files = (
 				33F165B82BA9ED5B00067619 /* GameView.swift in Sources */,
 				33B2C36A2BA49A7500A325E7 /* ContentView.swift in Sources */,
+				33E3B8A92BB1DE6B00E675D8 /* FinalPageView.swift in Sources */,
 				33B2C3682BA49A7500A325E7 /* emojiGameApp.swift in Sources */,
 				33C65A252BAC8CAA00C9CEDF /* SquareView.swift in Sources */,
 			);
