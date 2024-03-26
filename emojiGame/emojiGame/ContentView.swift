@@ -17,6 +17,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ZStack {
+                //this makes sure the wallpaper reaches the entire egde of screen
                 Image("emojiCover")
                     .ignoresSafeArea()
                 VStack {
@@ -29,6 +30,7 @@ struct ContentView: View {
                         .padding([.leading, .trailing], 50)
                         .padding(.bottom, 290)
                     
+                    //this sends user to game view page for game to start when button clicks
                     NavigationLink(destination: GameView().navigationBarBackButtonHidden(true), label: {
                         Text("Start")
                             .foregroundColor(.white)
